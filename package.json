@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "The best time-saver scss tool for your day to day life",
   "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
-    "test": "echo \"No test specified\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -14,11 +17,13 @@
     "scss",
     "css",
     "mobile-first",
-    "smartscss",
+    "framework",
     "frontend",
-    "sass",
+    "web",
+    "grid",
     "typography",
-    "grid"
+    "colors",
+    "scss-library"
   ],
   "author": "Suresh P",
   "license": "MIT",
