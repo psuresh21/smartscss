@@ -1,0 +1,29 @@
+{
+  "name": "smartscss",
+  "version": "1.0.0",
+  "description": "The best time-saver scss tool for your day to day life",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psuresh21/smartscss.git"
+  },
+  "keywords": [
+    "scss",
+    "css",
+    "mobile-first",
+    "smartscss",
+    "frontend",
+    "sass",
+    "typography",
+    "grid"
+  ],
+  "author": "Suresh P",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/psuresh21/smartscss/issues"
+  },
+  "homepage": "https://github.com/psuresh21/smartscss#readme"
+}
