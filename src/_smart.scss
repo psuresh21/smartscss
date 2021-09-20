@@ -222,3 +222,36 @@ $maxbold: 100;
     }
     @return white;
 }
+
+/* detect-layouts whether desktop or mobile view width */
+@mixin detect-layouts {
+@media only screen and (max-width: 1600px) {
+ .detect::After {
+    content: "Desktop";
+    background: black;
+    color: white;
+    width: 60px;
+    padding: 6px;
+    border-radius: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    font-family: arial;
+    font-size: 14px;
+    text-align: center;
+    font-size: 14px;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+  .detect::After {
+   content: "Mobile";
+   display: inline-block;
+   position: absolute;
+   left: 1%;
+   top: 1%;
+   font-family: arial;
+   }
+}
+}
