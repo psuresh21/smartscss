@@ -1,6 +1,7 @@
-<center>
-![smart logo](docs/smart-sass.PNG "smart logo")
-</center>
+<p align="center">
+  <img src="docs/smart-sass.PNG">
+  </p>
+
 
 ### What is Smart Scss ?
 A Smart scss is the best time-saver tool and code written by sass. It's helpful to build quickly - like typography, grid system, colors, etc. It's got unique mixins and functions too. Once you are adapt to smart scss, you will see a good improvement in your web design. 
