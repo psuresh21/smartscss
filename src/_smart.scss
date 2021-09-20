@@ -202,3 +202,9 @@ $units: rem;
    @return calc(#{$nonrounded} * #{$dss});
 }
 }
+
+/* font weights 100 to 800 */
+$maxbold: 100;
+@function adjustbold($ab) {
+   @return $maxbold * $ab; 
+}
