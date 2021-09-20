@@ -26,9 +26,10 @@ p {
 ```
 
 ### Easy to install
-#### There is two option for installs:
+#### There is three option for installs:
  - paste and copy this link inside the head tag  ```<link rel="stylesheet" type="text/css" href="smart.scss">```
  - clone the repository ```git clone https://github.com/psuresh21/smartscss.git```
+ - install using npm ```install smartscss --save-dev```
 
 ### Tools Used
  - Sass
