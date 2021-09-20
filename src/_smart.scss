@@ -105,3 +105,14 @@ ____/ /_  / / / / / /_/ /_  /   / /_      ____/ // /__ _(__  )_(__  )
      #{nth($cor,$cors)}: hsl($cs,100%,50%);
      #{nth($cor,$cors)}: hsl($c,100%,50%);
 }
+
+/*  analogous-color */
+@mixin analogous-color($cors,$hs) {
+     $hs: $hs; // 0
+     $cs: $hs + 30;
+     $c: $cs + 300;
+     $cor: (color background);
+     #{nth($cor,$cors)}: hsl($hs,100%,50%);
+     #{nth($cor,$cors)}: hsl($cs,100%,50%);
+     #{nth($cor,$cors)}: hsl($c,100%,50%);
+}
