@@ -128,3 +128,47 @@ ____/ /_  / / / / / /_/ /_  /   / /_      ____/ // /__ _(__  )_(__  )
       @content;
    }
 }
+
+/* custom grid system */
+@mixin grid-system($bsize,$column,$gutter) {
+@if type-of($bsize or $gutter or $column) == number {
+
+   .gridsystem12 {
+      max-width: $bsize+px;
+      width: 100%;
+      padding: 0 $gutter / $bsize * 100%;
+      margin: auto;
+   }
+   .grid {
+      &-1, &-2, &-3, &-4, &-5, &-6,  &-7, &-8, &-9, &-10, &-11, &-12 {
+         float: left;
+   }
+    @for $_ from 1 through 12 {
+      &-#{$_} {
+         width: math.round($column * $_ + $gutter * $_ - $gutter)/ $bsize * 100%;
+      }
+    }
+    @if list.separator(asdf) {
+   content: "kindly type numbers only";
+}
+    }
+    .clear-left:before {
+      clear: left;
+    }
+    .clear-left:after {
+      clear: left;
+    }
+    .clear-right:after {
+      clear: left;
+    }
+    .clear-right:before {
+      clear: left;
+    }
+    .float-left {
+      float: left;
+    }
+    .float-right {
+      float: right;
+    }
+}
+}
