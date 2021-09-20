@@ -191,3 +191,14 @@ $units: rem;
    $sizes: ($lg,$xl,$md,$sm,$xs,$xss,$xsss,$xssss,$xsssss,$xssssss,$xsssssss,$xssssssss);
    @return nth($sizes,$incrtodec)+$units;
 }
+
+/* border radius  */
+@function border($ds,$dss) {
+   $round: 0.5; $nonrounded: 0;
+   @if $ds == $dss {
+   @return calc(#{$round} * #{$ds});
+}
+@if $dss != $ds {
+   @return calc(#{$nonrounded} * #{$dss});
+}
+}
