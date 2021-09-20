@@ -172,3 +172,22 @@ ____/ /_  / / / / / /_/ /_  /   / /_      ____/ // /__ _(__  )_(__  )
     }
 }
 }
+
+/* typescale-rem */
+@function typescale-rem($base-size,$lg,$incrtodec) {
+$units: rem; 
+   $lg: $lg; 
+   $xl: math.div($lg,$base-size);
+   $md: math.div($xl,$base-size);
+   $sm: math.div($md,$base-size); 
+   $xs: math.div($sm,$base-size); 
+   $xss: math.div($xs,$base-size); 
+   $xsss: math.div($xss,$base-size);
+   $xssss: math.div($xsss,$base-size);
+   $xsssss: math.div($xssss,$base-size);
+   $xssssss: math.div($xsssss,$base-size);
+   $xsssssss: math.div($xssssss,$base-size);
+   $xssssssss: math.div($xsssssss,$base-size);
+   $sizes: ($lg,$xl,$md,$sm,$xs,$xss,$xsss,$xssss,$xsssss,$xssssss,$xsssssss,$xssssssss);
+   @return nth($sizes,$incrtodec)+$units;
+}
