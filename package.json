@@ -1,13 +1,10 @@
 {
-  "name": "smart-scss",
+  "name": "smartest-scss",
   "version": "1.0.0",
   "description": "The best time-saver scss tool for your day to day life",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"no test specified\""
   },
   "repository": {
     "type": "git",
