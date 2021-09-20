@@ -208,3 +208,17 @@ $maxbold: 100;
 @function adjustbold($ab) {
    @return $maxbold * $ab; 
 }
+
+/* color accessbility - black color only */
+@function checkcolorasb($check) {
+    $levels: (
+        level: 
+        (
+            first: AA
+            ) 
+        );
+    @if (lightness($check) <= 30%) {
+         @return  $check;
+    }
+    @return white;
+}
