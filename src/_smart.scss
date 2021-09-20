@@ -92,3 +92,16 @@ ____/ /_  / / / / / /_/ /_  /   / /_      ____/ // /__ _(__  )_(__  )
      #{nth($cor,$cors)}: hsl($cs,100%,50%);
      #{nth($cor,$cors)}: hsl($c,100%,50%);
 }
+
+/*  Tetradic-color */
+@mixin tetradic-color($cors,$hs,$h) {
+     $hs: $hs;
+     $h: $hs + 90; 
+     $cs: $h + 90; 
+     $c: $cs + 90; 
+     $cor: (color background);
+     #{nth($cor,$cors)}: hsl($hs,100%,50%);
+     #{nth($cor,$cors)}: hsl($h,100%,50%);
+     #{nth($cor,$cors)}: hsl($cs,100%,50%);
+     #{nth($cor,$cors)}: hsl($c,100%,50%);
+}
