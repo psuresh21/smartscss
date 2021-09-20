@@ -1,8 +1,8 @@
-<a href="https://psuresh21.github.io/smartscss">
 <p align="center">
+  <a href="https://psuresh21.github.io/smartscss">
   <img src="docs/smart-sass.PNG">
+      </a>
   </p>
-  </a>
 
 
 ### What is Smart Scss ?
