@@ -1,7 +1,7 @@
 {
   "name": "smartest-scss",
   "version": "1.0.2",
-  "description": "The best time-saver scss tool for your day to day life",
+  "description": "The smartest sass framework for build a typography, colors, grid, etc.,",
   "main": "index.js",
   "scripts": {
     "test": "echo \"no test specified\""
