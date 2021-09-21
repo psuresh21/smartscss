@@ -1,6 +1,6 @@
 {
   "name": "smartest-scss",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Best sass framework for build typography, colors, grid, and many things too",
   "main": "index.js",
   "scripts": {
@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/psuresh21/smartscss/issues"
   },
-  "homepage": "https://github.com/psuresh21/smartscss#readme"
+  "homepage": "https://github.com/psuresh21/smartscss#readme",
+  "directories": {
+    "doc": "docs"
+  }
 }
