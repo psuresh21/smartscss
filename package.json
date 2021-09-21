@@ -1,7 +1,7 @@
 {
   "name": "smartest-scss",
   "version": "1.0.2",
-  "description": "A Best sass framework for build a typography, colors, grid and many things too",
+  "description": "A Best sass framework for build typography, colors, grid, and many things too",
   "main": "index.js",
   "scripts": {
     "test": "echo \"no test specified\""
