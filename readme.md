@@ -12,7 +12,7 @@ A Smart scss is the best time-saver tool and code written by sass. It's helpful 
 #### For Example:
 If you try to set typography for desktop and mobile, you need to search in a particular site for getting type scale values. It makes your mind very frustrated to identify suitable fonts for particular layouts and look like a back and forth process you feel.
 
-#### that is what smart scss comes in,####
+#### that is what smart scss comes in,
 
 ```
 p {
