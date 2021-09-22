@@ -37,8 +37,8 @@ ____/ /_  / / / / / /_/ /_  /   / /_      ____/ // /__ _(__  )_(__  )
     }
 }
 
-/* Typescale pixels */
-@mixin typescale-px($base,$d,$n) {
+/* Typescale rem */
+@mixin typescale-rem($base,$d,$n) {
     $ratio: math.div($d,$n);
      .xl {
         font-size: math.div($base,$base) * $ratio * $ratio * $ratio * $ratio+rem;
