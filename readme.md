@@ -16,7 +16,7 @@ If you try to set typography for desktop and mobile, you need to search in a par
 
 ```
 p {
-  @include type scale(paragraph,16,5,4);
+  @include typescale-rem(paragraph,16,5,4);
 }
 
 p {
