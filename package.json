@@ -1,6 +1,6 @@
 {
   "name": "smartscss",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A Best sass framework for build typography, colors, grid, and many things too",
   "main": "index.js",
   "scripts": {
