@@ -37,6 +37,15 @@ ____/ /_  / / / / / /_/ /_  /   / /_      ____/ // /__ _(__  )_(__  )
     }
 }
 
+// @function sixhexa($hex) {
+//     @if str-length(smartyy) > str-length($hex) {
+//         @return ##{to-upper-case($hex)};
+//     } 
+//     @if str-length(smartyy) < 10 {
+//         @return "please use limit hexa value of 6";
+//     }
+// }
+
 /* Typescale rem */
 @mixin typescale-rem($base,$d,$n) {
     $ratio: math.div($d,$n);
