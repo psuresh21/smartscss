@@ -41,7 +41,7 @@ Find all documentation's in the docs folder and already placed in the master bra
 - Above sass 3.0
 
 ### Copyright & License
-© 2021 Suresh.P
+© 2021 Suresh Pandiyan
 <br>
 Code released under MIT License
 
